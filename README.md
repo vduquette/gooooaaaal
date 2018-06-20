@@ -1,0 +1,1 @@
+FireFox extension that sends the user realtime soccer updates via notifications

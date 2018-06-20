@@ -1,0 +1,17 @@
+{
+  "browser_action": {
+    "default_icon": "/icons/soccer.png"
+  },
+  "description": "Get real time soccer updates via notifications",
+  "homepage_url": "https://github.com/vduquette/gooooaaaal",
+  "manifest_version": 2,
+  "name": "Gooooaaaal",
+  "version": "1.0",
+  "permissions": ["notifications"],
+  "background": {
+    "scripts": ["background.js", "pusher.js"]
+  },
+  "icons": {
+    "128": "/icons/soccer.png"
+  }
+}
